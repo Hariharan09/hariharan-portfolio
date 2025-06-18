@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ParticlesBackground from "./ParticlesBackground";
+import ParticlesBackground from "./ParticlesBg";
 import aboutBg from "../assets/Images/about-bg.jpeg";
 import Lottie from "lottie-react";
 import devAnimation from "../assets/dev-lottie.json";
@@ -72,8 +72,6 @@ const About = () => {
           </motion.p>
         </motion.div>
       </div>
-      {/* ✨ Divider */}
-<div className="w-full h-[1px] bg-gradient-to-r from-green-400/20 via-white/10 to-green-400/20 blur-sm mt-20" />
     </section>
   );
 };

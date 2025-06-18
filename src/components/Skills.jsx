@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ParticlesBackground from "./ParticlesBackground";
+import ParticlesBackground from "./ParticlesBg";
 import skillsImage from "../assets/Images/skills-bg.png";
 
 const skills = [
